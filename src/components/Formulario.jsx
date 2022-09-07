@@ -10,7 +10,7 @@ import Citas from './Citas'
 const Formulario = () => {
     return (
         <div className="container">
-            <Card>
+            <Card className="cardShadow">
                 <Card.Header><h5>Llenar el formulario para crear una cita</h5></Card.Header>
                 <Card.Body className="fondoFormulario">
                     <Form>

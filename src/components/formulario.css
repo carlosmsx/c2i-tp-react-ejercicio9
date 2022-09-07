@@ -6,6 +6,10 @@
     text-align: end;
 }
 
+.cardShadow {
+    box-shadow: 0.25rem 0.5rem 0.8rem 0 rgb(80,80,80,70%);    
+}
+
 @media (max-width: 575px) {
     .textJustify {
         text-align: start;

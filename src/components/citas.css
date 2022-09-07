@@ -1,3 +1,7 @@
 .fondoLista {
     background-color: rgb(227, 242, 253);
 }
+
+.cardShadow {
+    box-shadow: 0.25rem 0.5rem 0.8rem 0 rgb(80,80,80,70%);    
+}
