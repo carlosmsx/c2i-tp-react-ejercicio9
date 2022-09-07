@@ -1,3 +1,13 @@
 .fondoFormulario {
     background-color: rgb(227, 242, 253);
 }
+
+.textJustify {
+    text-align: end;
+}
+
+@media (max-width: 575px) {
+    .textJustify {
+        text-align: start;
+    }
+  }
