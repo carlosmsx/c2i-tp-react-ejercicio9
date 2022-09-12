@@ -5,7 +5,7 @@ import "./cita-card.css";
 
 const Cita = (props) => {
     return (
-        <div className="my-2 col-12 col-sm-6 col-md-4 col-lg-3">
+        <div className="my-2 col-12 col-md-6 col-lg-4">
         <Card className="text-center">
             <Card.Header className="text-start">
                 <section className="row">
@@ -19,8 +19,10 @@ const Cita = (props) => {
                     </aside>
                 </section>
             </Card.Header>
-            <Card.Body>
-                <Card.Text>{props.cita.sintomas}</Card.Text>
+            <Card.Body className="row text-start m-0 fondoLista">
+                <div className="px-0 my-1 col-3">Fecha:</div><div className="my-1 col-9 fondoBlanco">{props.cita.fecha}</div>
+                <div className="px-0 my-1 col-3">Hora:</div><div className="my-1 col-9 fondoBlanco">{props.cita.hora}</div>
+                <div className="px-0 my-1 col-3">Síntomas:</div><div className="my-1 col-9 fondoBlanco">{props.cita.sintomas}</div>
             </Card.Body>
             <Card.Footer className="text-end">
                 <Button variant="danger" onClick={()=>{props.borrarCita(props.cita);}}>Borrar</Button>

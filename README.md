@@ -12,8 +12,4 @@ La aplicación permite borrar las citas y estas son guardadas en el localstorage
 
 npm i react-bootstrap bootstrap
 
-## Sweetalert 2
-
-npm install --save sweetalert2 sweetalert2-react-content
-
 ### Carlos Escobar
